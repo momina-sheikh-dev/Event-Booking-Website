@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registation Form</title>
+    <link rel="stylesheet" href="css/registry.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="mediaQuery/registryPhone.css">
+</head>
+<body>
+      <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="registry.html">Registry</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+</div>
+    <div class="container">
+        <h1>Register Yourself Now!</h1>
+
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="country">Country:</label>
+            <select id="country">
+                <option value="">Select a country</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+
+            <button type="button" class="button" onclick="showPopup()">Submit</button>
+        </form>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="popup">
+        <p>Thank you for submitting the form!</p>
+        <button class="close-btn" onclick="hidePopup()">Close</button>
+    </div>
+
+         <footer class="footer">
+        <p>BRANCHES | QUICK-LINES | FOLLOW-US | CONTACT-INFO</p>
+        <p>Karachi | Muree | Lahore | Quetta</p>
+        <p>Follow us on <img src="images/instagram.png" width="24" height="26"> <img src="images/facebook.png"24" height="26"> <img src="images/twitter.png" width="25" height="26"></p>
+        <p>Phone: +113-235-569 | Email: evento_planning@gmail.com | Address: Hassan Square Apartment</p>
+    </footer>
+
+    <script>
+        function showPopup() {
+            document.querySelector('.popup').style.display = 'block';
+            document.querySelector('.overlay').style.display = 'block';
+        }
+
+        function hidePopup() {
+            document.querySelector('.popup').style.display = 'none';
+            document.querySelector('.overlay').style.display = 'none';
+            document.getElementById('myForm').reset();
+        }
+    </script>
+</body>
+</html>
