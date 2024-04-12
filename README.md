@@ -1,4 +1,4 @@
-## Website 🌐
+# Website 🌐
 
 Visit our website: [https://momina-sheikh-dev.github.io/Event-Booking-Website/](https://momina-sheikh-dev.github.io/Event-Booking-Website/)
 
