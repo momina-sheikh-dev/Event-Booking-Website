@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../images/event.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 77%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+    margin-bottom:30px;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+.section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section img {
+    display: inline-block;
+    max-width: 270px;
+    height: auto;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.responsive img{
+    width: 36vw;
+    height: 20vw;
+}
