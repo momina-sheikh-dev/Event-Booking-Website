@@ -1,0 +1,4 @@
+.responsive img{
+    flex-direction: column;
+    padding: 50px;
+}
