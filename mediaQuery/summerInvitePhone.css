@@ -1,0 +1,5 @@
+.responsive img{
+    flex-direction: column;
+    margin: 10px;
+    padding: 45px;
+}
