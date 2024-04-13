@@ -1,0 +1,13 @@
+.responsive img{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 15px;
+}
+
+.navbar{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.navbar ul li a{
+    font-size: 0.6rem;
+}

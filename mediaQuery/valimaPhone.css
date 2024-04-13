@@ -1,0 +1,10 @@
+.navbar{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.navbar ul li a{
+    font-size: 0.6rem;
+}
+.responsive img{
+   margin: 5px;
+}
