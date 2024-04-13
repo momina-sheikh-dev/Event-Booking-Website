@@ -1,0 +1,12 @@
+.container{
+    width: 70vw;
+    height: 60vh;
+}
+
+.navbar{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.navbar ul li a{
+    font-size: 0.6rem;
+}
