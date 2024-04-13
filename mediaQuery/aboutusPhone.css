@@ -1,0 +1,16 @@
+.navbar{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.navbar ul li a{
+    font-size: 0.6rem;
+}
+h1{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 0.7rem;
+}
+.font{
+    font-size: 0.8rem;
+}

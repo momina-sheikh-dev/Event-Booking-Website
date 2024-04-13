@@ -1,0 +1,21 @@
+
+.responsive img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 4px;
+}
+.text{
+    font-size: 1.2rem;
+}
+.navbar{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.navbar ul li a{
+    width: 3px;
+    font-size: 0.6em;
+    padding: 0px 0px;
+}
